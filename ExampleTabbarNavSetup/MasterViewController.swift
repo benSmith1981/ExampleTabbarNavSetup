@@ -12,7 +12,7 @@ import UIKit
 class MasterViewController: UIViewController
 {
 
-    var login = false
+    private var login = false
     override func viewWillAppear(_ animated: Bool) {
     
     
@@ -20,7 +20,7 @@ class MasterViewController: UIViewController
         
         if !login {
             
-            //programmatically changing th 
+            //programmatically changing th
             let story = UIStoryboard(name: "Login", bundle: nil)
             let view = story.instantiateViewController(withIdentifier: "loginView") as! AViewController
             view.delegate = self

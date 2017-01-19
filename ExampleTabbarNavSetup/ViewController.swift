@@ -25,7 +25,7 @@ class AViewController: UIViewController {
 
 
     @IBAction func didLogin(_ sender: AnyObject) {
-        delegate?.login = true
+//        delegate?.login = true
 //        dismiss(animated: true, completion: nil)
         navigationController?.popToRootViewController(animated: true)
     }
