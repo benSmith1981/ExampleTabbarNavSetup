@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Kz4-8N-tZQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 4-->
+        <scene sceneID="R1a-rL-6zi">
+            <objects>
+                <navigationController id="Kz4-8N-tZQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 4" id="Q2s-xH-bX8"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k5z-u0-KZM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WzG-47-aOS" kind="relationship" relationship="rootViewController" id="wUN-ee-a9L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nI-vB-l1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3031" y="210"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P67-PJ-exe">
+            <objects>
+                <viewController id="WzG-47-aOS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P1r-Vi-MDX"/>
+                        <viewControllerLayoutGuide type="bottom" id="jG0-nV-mTb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8kO-or-oBw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uOX-jK-ZHs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zAK-nf-wkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2233" y="518"/>
+        </scene>
+    </scenes>
+</document>
